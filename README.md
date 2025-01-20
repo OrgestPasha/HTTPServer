@@ -1,9 +1,13 @@
-This is a simple HTTP server implemented in Java. 
+##This is a simple HTTP server implemented in Java. 
 It supports GET, POST, PUT, and DELETE requests to manage HTML files in the www directory. 
-## Prerequisites - Java Development Kit (JDK) installed - json-20210307.jar library 
-## Project Structure your-project/ ├── libs/ │ └── json-20210307.jar ├── www/ ├── Server.java └── bin/ 
-## Compile the Java Code javac -cp "libs/json-20210307.jar" -d bin Server.java 
-## Run the Java Program java -cp "libs/json-20210307.jar;bin" Server 
+## Prerequisites 
+- Java Development Kit (JDK) installed - json-20210307.jar library 
+## Project Structure 
+your-project/ ├── libs/ │ └── json-20210307.jar ├── www/ ├── Server.java └── bin/ 
+## Compile the Java Code 
+javac -cp "libs/json-20210307.jar" -d bin Server.java 
+## Run the Java Program 
+java -cp "libs/json-20210307.jar;bin" Server 
 ## Example Requests: 
 
 - GET Request: curl -X GET http://localhost:4221/example.html 
