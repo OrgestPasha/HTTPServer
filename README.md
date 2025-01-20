@@ -1,4 +1,4 @@
-## This is a simple HTTP server implemented in Java. 
+### This is a simple HTTP server implemented in Java. 
 It supports GET, POST, PUT, and DELETE requests to manage HTML files in the www directory. 
 ## Prerequisites 
 - Java Development Kit (JDK) installed - json-20210307.jar library 
